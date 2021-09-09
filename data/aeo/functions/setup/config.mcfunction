@@ -29,9 +29,6 @@ scoreboard players set $type.projectile.limit irsc.aeo.global 200
 # Inanimate-type limit (boats, minecart, end crystal)
 # List of entities defined in the entity tag "aeo:type/inanimate"
 scoreboard players set $type.inanimate.limit irsc.aeo.global 200
-# Ask before killing inanimates? [1 = Yes, 2 = No]
-scoreboard players set $type.inanimate.ask irsc.aeo.global 1
-
 # Item limit
 # 'limit.soft' defines when a "lagclear" will be scheduled, these can be stopped by anyone if they have items on the ground they don't want cleared
 scoreboard players set $type.item.limit.soft irsc.aeo.global 200
@@ -52,31 +49,31 @@ scoreboard players set $lagclear.schedule.postpone irsc.aeo.global 120
 # Bossbar creation
 # Ops can choose to display bossbars which show the entity count for a given type
 
-bossbar add irsc.aeo:all ["",{"text":"Total Entities: ","color":"gold"},{"score":{"name":"$type.all","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.all.limit","objective":"irsc.aeo.global"},"color":"white"}]
+bossbar add irsc.aeo:all "Loading..."
 bossbar set irsc.aeo:all color yellow
 ## Do not edit
 bossbar set irsc.aeo:all visible true
 bossbar set irsc.aeo:all players
 #
-bossbar add irsc.aeo:tnt ["",{"text":"Total TNT: ","color":"red"},{"score":{"name":"$type.tnt","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.tnt.limit","objective":"irsc.aeo.global"},"color":"white"}]
+bossbar add irsc.aeo:tnt "Loading..."
 bossbar set irsc.aeo:tnt color red
 ## Do not edit
 bossbar set irsc.aeo:tnt visible true
 bossbar set irsc.aeo:tnt players
 #
-bossbar add irsc.aeo:projectile ["",{"text":"Total Projectiles: ","color":"dark_aqua"},{"score":{"name":"$type.projectile","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.projectile.limit","objective":"irsc.aeo.global"},"color":"white"}]
+bossbar add irsc.aeo:projectile "Loading..."
 bossbar set irsc.aeo:projectile color blue
 ## Do not edit
 bossbar set irsc.aeo:projectile visible true
 bossbar set irsc.aeo:projectile players
 ##
-bossbar add irsc.aeo:inanimate ["",{"text":"Total Inanimates: ","color":"green"},{"score":{"name":"$type.inanimate","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.inanimate.limit","objective":"irsc.aeo.global"},"color":"white"}]
+bossbar add irsc.aeo:inanimate "Loading..."
 bossbar set irsc.aeo:inanimate color green
 ## Do not edit
 bossbar set irsc.aeo:inanimate visible true
 bossbar set irsc.aeo:inanimate players
 #
-bossbar add irsc.aeo:item ["",{"text":"Total Items: ","color":"light_purple"},{"score":{"name":"$type.item","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.item.limit","objective":"irsc.aeo.global"},"color":"white"}]
+bossbar add irsc.aeo:item "Loading..."
 bossbar set irsc.aeo:item color pink
 ## Do not edit
 bossbar set irsc.aeo:item visible true
