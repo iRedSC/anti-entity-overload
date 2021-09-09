@@ -1,0 +1,46 @@
+
+{
+	"description": "Inanimate Entities",
+	"values": [
+		{
+			"id": "minecraft:minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:chest_minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:furnace_minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:hopper_minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:tnt_minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:command_block_minecart",
+			"required": false
+		},
+		{
+			"id": "minecraft:spawner_minecart",
+			"required": false
+		},
+    {
+			"id": "minecraft:boat",
+			"required": false
+		},
+    {
+			"id": "minecraft:armor_stand",
+			"required": false
+		},
+    {
+			"id": "minecraft:end_crystal",
+			"required": false
+		}
+	]
+}
