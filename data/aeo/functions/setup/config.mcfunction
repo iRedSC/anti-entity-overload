@@ -24,11 +24,11 @@ scoreboard players set $type.tnt.limit irsc.aeo.global 500
 # Projectile limit (arrows, snowballs, shulker bullets)
 # ENDER PEARLS ARE EXCLUDED DUE TO IT POSSIBLY AFFECT PEARL STASIS ETC
 # List of entities defined in the entity tag "aeo:type/projectile"
-scoreboard players set $type.projectile.limit irsc.aeo.global 200
+scoreboard players set $type.projectile.limit irsc.aeo.global 100
 
 # Inanimate-type limit (boats, minecart, end crystal)
 # List of entities defined in the entity tag "aeo:type/inanimate"
-scoreboard players set $type.inanimate.limit irsc.aeo.global 200
+scoreboard players set $type.inanimate.limit irsc.aeo.global 500
 # Item limit
 # 'limit.soft' defines when a "lagclear" will be scheduled, these can be stopped by anyone if they have items on the ground they don't want cleared
 scoreboard players set $type.item.limit.soft irsc.aeo.global 200

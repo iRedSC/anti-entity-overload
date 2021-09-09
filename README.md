@@ -2,7 +2,17 @@
 
 AEO is a datapack that helps prevent lagging and crashing from having too many entities by killing new ones if they surpass a specified limit.
 
+### Disclaimer!
+This datapack kills entities!
+Be aware of this and backup your world before installing it.
+Please do not hold me responsible if it kills something it was not meant too.
+**Use caution if you edit this datapack.**
+
 ### Installation
+You can download the datapack under releases:
+https://github.com/iRedSC/anti-entity-overload/releases
+(download `source-code`)
+
 All you have to do is put the datapack in your `datapacks` folder and reload.
 
 ### Debug Mode
