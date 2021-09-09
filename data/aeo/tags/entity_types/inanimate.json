@@ -41,6 +41,22 @@
     {
 			"id": "minecraft:end_crystal",
 			"required": false
+		},
+    {
+			"id": "minecraft:item_frame",
+			"required": false
+		},
+    {
+			"id": "minecraft:painting",
+			"required": false
+		},
+    {
+			"id": "minecraft:leash_knot",
+			"required": false
+		},
+	{
+			"id": "minecraft:glow_item_frame",
+			"required": false
 		}
 	]
 }

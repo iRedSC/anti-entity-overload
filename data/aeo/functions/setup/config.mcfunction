@@ -1,10 +1,13 @@
+## This is the config file
 
 # Scoreboard creation
-# DO NOT EDIT THIS
+## DO NOT EDIT THIS
 scoreboard objectives add irsc.aeo.global dummy
 scoreboard objectives add irsc.aeo.lifespn dummy
 scoreboard objectives add irsc.aeo.msgdly dummy
 scoreboard objectives add irsc.aeo.lgclrcl trigger
+
+## [!] CONFIGURABLE OPTIONS [!]
 
 # Max limits
 #
@@ -51,31 +54,31 @@ scoreboard players set $lagclear.schedule.postpone irsc.aeo.global 120
 
 bossbar add irsc.aeo:all ["",{"text":"Total Entities: ","color":"gold"},{"score":{"name":"$type.all","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.all.limit","objective":"irsc.aeo.global"},"color":"white"}]
 bossbar set irsc.aeo:all color yellow
-# Do not edit
+## Do not edit
 bossbar set irsc.aeo:all visible true
 bossbar set irsc.aeo:all players
 #
 bossbar add irsc.aeo:tnt ["",{"text":"Total TNT: ","color":"red"},{"score":{"name":"$type.tnt","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.tnt.limit","objective":"irsc.aeo.global"},"color":"white"}]
 bossbar set irsc.aeo:tnt color red
-# Do not edit
+## Do not edit
 bossbar set irsc.aeo:tnt visible true
 bossbar set irsc.aeo:tnt players
 #
 bossbar add irsc.aeo:projectile ["",{"text":"Total Projectiles: ","color":"dark_aqua"},{"score":{"name":"$type.projectile","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.projectile.limit","objective":"irsc.aeo.global"},"color":"white"}]
 bossbar set irsc.aeo:projectile color blue
-# Do not edit
+## Do not edit
 bossbar set irsc.aeo:projectile visible true
 bossbar set irsc.aeo:projectile players
-#
+##
 bossbar add irsc.aeo:inanimate ["",{"text":"Total Inanimates: ","color":"green"},{"score":{"name":"$type.inanimate","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.inanimate.limit","objective":"irsc.aeo.global"},"color":"white"}]
 bossbar set irsc.aeo:inanimate color green
-# Do not edit
+## Do not edit
 bossbar set irsc.aeo:inanimate visible true
 bossbar set irsc.aeo:inanimate players
 #
 bossbar add irsc.aeo:item ["",{"text":"Total Items: ","color":"light_purple"},{"score":{"name":"$type.item","objective":"irsc.aeo.global"},"color":"white"},{"text":"/","color":"white"},{"score":{"name":"$type.item.limit","objective":"irsc.aeo.global"},"color":"white"}]
 bossbar set irsc.aeo:item color pink
-# Do not edit
+## Do not edit
 bossbar set irsc.aeo:item visible true
 bossbar set irsc.aeo:item players
 #

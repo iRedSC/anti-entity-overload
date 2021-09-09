@@ -1,4 +1,4 @@
-
+## Uninstall function
 # Remove scoreboards
 scoreboard objectives remove irsc.aeo.global
 scoreboard objectives remove irsc.aeo.lifespn
