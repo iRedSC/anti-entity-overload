@@ -11,7 +11,7 @@ Please do not hold me responsible if it kills something it was not meant too.
 ### Installation
 You can download the datapack under releases:
 https://github.com/iRedSC/anti-entity-overload/releases
-(download `source-code`)
+(download `source-code.zip`)
 
 All you have to do is put the datapack in your `datapacks` folder and reload.
 
