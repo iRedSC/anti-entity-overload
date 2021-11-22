@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": "Helps prevent lag from having too many entites.\n \"/function aeo:help\" for more information."
     }
 }

@@ -1,7 +1,7 @@
 # for each entity, if these conditions are met, add 1 to the correct entity type count variable
-scoreboard players add $type.all irsc.aeo.global 1
-execute if entity @s[type=#aeo:projectile] run scoreboard players add $type.projectile irsc.aeo.global 1
-execute if entity @s[type=minecraft:tnt] run scoreboard players add $type.tnt irsc.aeo.global 1
-execute if entity @s[type=minecraft:item] run scoreboard players add $type.item irsc.aeo.global 1
-execute if entity @s[type=minecraft:item,tag=] run scoreboard players add $type.item.no-tag irsc.aeo.global 1
-execute if entity @s[type=#aeo:inanimate] run scoreboard players add $type.inanimate irsc.aeo.global 1
+execute store result score $type.all irsc.aeo.global if entity @e[type=!player]
+execute store result score $type.projectile irsc.aeo.global if entity @e[type=#aeo:projectile]
+execute store result score $type.tnt irsc.aeo.global if entity @e[type=minecraft:tnt]
+execute store result score $type.item irsc.aeo.global if entity @e[type=minecraft:item]
+execute store result score $type.item.no-tag irsc.aeo.global if entity @e[type=minecraft:item,tag=]
+execute store result score $type.inanimate irsc.aeo.global if entity @e[type=#aeo:inanimate]

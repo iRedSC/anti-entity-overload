@@ -8,7 +8,7 @@ execute as @e unless score @s irsc.aeo.lifespn matches 0.. run scoreboard player
 scoreboard players add * irsc.aeo.lifespn 1
 
 # Resets all of the $type.* entity counts
-function aeo:clear-count
+function aeo:count
 # Main function for killing new entities if they surpass the limit
 function aeo:kill/main
 
