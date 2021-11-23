@@ -1,9 +1,0 @@
-{
-    "output": "build/test",
-    "data_pack": {
-        "load": ["src"],
-        "name": "v1.1.1",
-        "description": "Helps prevent lag from having too many entites.\n \"/function aeo:help\" for more information.",
-        "pack_format": 7
-    }
-}
