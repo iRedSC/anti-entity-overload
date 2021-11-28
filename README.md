@@ -1,4 +1,5 @@
 ## AEO - Anti Entity Overload
+[![Discord](https://img.shields.io/discord/900530660677156924?color=7289DA&label=discord&logo=discord&logoColor=fff)](https://discord.gg/5ZqSDhbBDh)
 
 AEO is a datapack that helps prevent lagging and crashing from having too many entities by killing new ones if they surpass a specified limit.
 
