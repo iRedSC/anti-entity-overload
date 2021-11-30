@@ -1,1 +1,1 @@
-beet -c beet-release.json
+beet -c beet-release.yml build --no-link

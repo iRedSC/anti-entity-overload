@@ -1,0 +1,13 @@
+---
+
+extend:
+  - beet.yml
+
+output: build/release
+name: ''
+
+author: iRedSC
+
+data_pack:
+  name: "AEO ({{ project_version }})"
+  zipped: true

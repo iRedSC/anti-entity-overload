@@ -1,1 +1,1 @@
-beet -c beet.json
+beet -c beet.yml
